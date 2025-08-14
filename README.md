@@ -11,6 +11,7 @@ When multiple versions of an entity exist, even humans find it hard to decide wh
 We propose a method that evaluates how closely each record variation is linked to the rest of the dataset using TDA, and selects the one with the highest connectivity.
 
 ---
+![Mapper](./images/Mapper.png)
 
 ## Proposed Solution
 1. Identify all variations of an entity in the dataset.
@@ -59,9 +60,14 @@ We propose a method that evaluates how closely each record variation is linked t
 
 - Output includes `.tsv` files with: Record ID, Node Counts, Number of Nodes.
 - Tableau visualizations:
-  - **Cluster ID vs Node Count**
-  - **Cluster ID vs Number of Nodes**
+-    ![Tableau Visualization](./Images/Tableau_output.png)
   - **Node Count vs Number of Node Variables**
-- Highest number in output array = selected accurate variation.
+       ![](./Images/Talbleau_Total_Nunmber-of-neighbors.png)]
+
+- UMAP Visulization
+-    ![Umap](./Images/Umap.png)
+- Nearest Neighbour in UMAP
+-    ![](./Images/Neighbour_umap.png)
+  
 
 
