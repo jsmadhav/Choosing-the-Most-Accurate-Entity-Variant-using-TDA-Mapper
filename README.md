@@ -20,4 +20,4 @@ Multiple versions of an entity exist across sources. Even humans struggle to pic
 ---
 
 ## Data
-Unstructured person-like records with fields such as:
+Unstructured person-like records with fields such as:RecID, fname, lname, mname, address, city, state, zip, ssn
