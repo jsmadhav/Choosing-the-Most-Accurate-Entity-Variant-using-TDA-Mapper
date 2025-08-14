@@ -11,7 +11,7 @@ When multiple versions of an entity exist, even humans find it hard to decide wh
 We propose a method that evaluates how closely each record variation is linked to the rest of the dataset using TDA, and selects the one with the highest connectivity.
 
 ---
-![Mapper](./images/Mapper.png)
+![Mapper](./Images/Mapper.png)
 
 ## Proposed Solution
 1. Identify all variations of an entity in the dataset.
